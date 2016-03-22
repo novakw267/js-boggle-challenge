@@ -1,6 +1,6 @@
 'use strict';
 
-const boggleVariants = require('../lib/boggle.js');
+const boggleVariants = require('../lib/challenge.js');
 const boggle = boggleVariants.boggle;
 const bigBoggle = boggleVariants.bigBoggle;
 const superBigBoggle = boggleVariants.superBigBoggle;
