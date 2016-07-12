@@ -1,5 +1,8 @@
 'use strict';
 
+const chai = require('chai');
+const expect = chai.expect;
+
 const boggleVariants = require('../lib/challenge.js');
 
 describe('challenge', () => {
@@ -16,7 +19,7 @@ describe('challenge', () => {
     ];
 
     it(`returns 'dogs' for ${dogs.join(';')}`, () => {
-      expect(boggle(tray, dogs)).toBe('dogs');
+      expect(boggle(tray, dogs)).to.equal('dogs');
     });
 
     let cat = [
@@ -26,7 +29,7 @@ describe('challenge', () => {
     ];
 
     it(`returns 'cat' for ${cat.join(';')}`, () => {
-      expect(boggle(tray, cat)).toBe('cat');
+      expect(boggle(tray, cat)).to.equal('cat');
     });
 
     let loam = [
@@ -37,7 +40,7 @@ describe('challenge', () => {
     ];
 
     it(`returns 'loam' for ${loam.join(';')}`, () => {
-      expect(boggle(tray, loam)).toBe('loam');
+      expect(boggle(tray, loam)).to.equal('loam');
     });
 
   });
@@ -54,7 +57,7 @@ describe('challenge', () => {
     ];
 
     it(`returns 'dogs' for ${dogs.join(';')}`, () => {
-      expect(boggle(tray, dogs)).toBe('dogs');
+      expect(boggle(tray, dogs)).to.equal('dogs');
     });
 
     let cat = [
@@ -64,7 +67,7 @@ describe('challenge', () => {
     ];
 
     it(`returns 'cat' for ${cat.join(';')}`, () => {
-      expect(boggle(tray, cat)).toBe('cat');
+      expect(boggle(tray, cat)).to.equal('cat');
     });
 
     let loam = [
@@ -75,7 +78,7 @@ describe('challenge', () => {
     ];
 
     it(`returns 'loam' for ${loam.join(';')}`, () => {
-      expect(boggle(tray, loam)).toBe('loam');
+      expect(boggle(tray, loam)).to.equal('loam');
     });
 
   });
@@ -92,7 +95,7 @@ describe('challenge', () => {
     ];
 
     it(`returns 'dogs' for ${dogs.join(';')}`, () => {
-      expect(boggle(tray, dogs)).toBe('dogs');
+      expect(boggle(tray, dogs)).to.equal('dogs');
     });
 
     let cat = [
@@ -102,7 +105,7 @@ describe('challenge', () => {
     ];
 
     it(`returns 'cat' for ${cat.join(';')}`, () => {
-      expect(boggle(tray, cat)).toBe('cat');
+      expect(boggle(tray, cat)).to.equal('cat');
     });
 
     let loam = [
@@ -113,7 +116,7 @@ describe('challenge', () => {
     ];
 
     it(`returns 'loam' for ${loam.join(';')}`, () => {
-      expect(boggle(tray, loam)).toBe('loam');
+      expect(boggle(tray, loam)).to.equal('loam');
     });
 
   });
