@@ -1,8 +1,17 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Boggle challenge
+# Boggle Challenge
 
 Test for words on a boggle board.
+
+**IMPORTANT:** This challenge is an exercise in *problem solving*. It is
+crucial to **read this entire document first** before beginning anything.
+We suggest whiteboarding to make sure you understand the problem.
+
+Next, solve `boggle` as simply as possible (don't be clever!). Then, solve
+`bigBoggle` and compare it to your `boggle` solution. You might notice
+patterns. Finish by make a single solution work for every kind of boggle
+presented here.
 
 ## Instructions
 
