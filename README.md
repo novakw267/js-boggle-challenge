@@ -13,6 +13,11 @@ Next, solve `boggle` as simply as possible (don't be clever!). Then, solve
 patterns. Finish by make a single solution work for every kind of boggle
 presented here.
 
+## Prerequisites
+
+-   [js-reference-types](https://github.com/ga-wdi-boston/js-reference-types)
+-   Familiarity with the concept of arrays.
+
 ## Instructions
 
 1.  Fork and clone this repository.
